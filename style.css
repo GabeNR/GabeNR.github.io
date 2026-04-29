@@ -1,28 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
-    font-family: sans-serif;
-    color: #333;
-    background: #f9f9f9;
-    width: 600px;
-    margin: auto;
+  color: #333;
+  background: #f9f9f9;
+  margin: auto;
+  width: 600px;
+
+  display: grid;
+  grid-template-rows: 80vh 20vh 1fr 1fr;
 }
 
 ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-/* Se forem classes, use ponto */
 .project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
 }
 
 .project {
-    border: 1px solid #999;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: white;
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #0079ba;
+}
+
+header {
+  align-self: center;
+  justify-self: center;
 }
     
